@@ -1,0 +1,31 @@
+.formulario_login{
+  padding: 15px;
+}
+
+.formulario_login{
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#registrarse{
+  text-align: center;
+}
+
+legend{
+  text-align: center;
+}
+
+.texto_centrado{
+  text-align: center;
+}
+
+.texto_error{
+  text-align: center;
+  color: red;
+}
+
+.texto_ok{
+  text-align: center;
+  color: green;
+}

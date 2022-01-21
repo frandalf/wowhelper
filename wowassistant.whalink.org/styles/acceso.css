@@ -1,0 +1,408 @@
+body
+{
+    background: url('../img/wall-login.jpg') fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+@media only screen and (max-width: 360px){
+  img{
+    display:none;
+  }
+
+  body{
+    overflow-y: auto;
+  }
+}
+
+.wrap
+{
+    margin-top:50px;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.form-title
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+form
+{
+    width: 250px;
+    margin: 0 auto;
+}
+
+form.login input[type="text"], form.login input[type="password"], form.login input[type="email"]
+{
+    background-color: #000000;
+    opacity: 0.8;
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    border: 0;
+    border-bottom: 2px solid #303030;
+    border-left: 2px solid #303030;
+    border-right: 2px solid #a3a09f;
+    border-top: 2px solid #a3a09f;
+    border-radius: 5px;
+    outline: 0;
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.login input[type="submit"]
+{
+    width: 100%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+form.login input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+
+form.login .remember-forgot
+{
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+form.login .forgot-pass-content
+{
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+form.login, form.login a
+{
+    font-size: 1em;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form.login a
+{
+    transition: color 0.5s ease;
+}
+
+form.login a:hover
+{
+    color: #00aeff;
+}
+
+
+
+.pr-wrap
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.show-pass-reset
+{
+    display: block !important;
+}
+
+.pass-reset
+{
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    margin-top: 22%;
+    z-index: 999;
+    background: #FFFFFF;
+    padding: 20px 15px;
+}
+
+.pass-reset label
+{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.pass-reset input[type="email"]
+{
+    width: 100%;
+    margin: 5px 0 0 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+    font-style: italic;
+    font-size:1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #000000;
+    outline: 0;
+}
+
+.pass-reset input[type="submit"]
+{
+    width: 100%;
+    border: 0;
+    font-size: 1.21em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.pass-reset input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+.posted-by{
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 15px;
+}
+
+.fposted-by.navbar{
+  width: 15%;
+  margin: 0 auto;
+}
+
+.formulario{
+    position: absolute;
+  	top:35%;
+  	left:50%;
+  	width:400px;
+  	margin-left:-200px;
+  	height:300px;
+  	margin-top:-150px;
+  	padding:5px;
+}
+
+.formularioReg{
+    position: absolute;
+  	top:25%;
+  	left:50%;
+  	width:400px;
+  	margin-left:-200px;
+  	height:300px;
+  	margin-top:-150px;
+  	padding:5px;
+}
+
+.boton-login{
+  color: white;
+  border-bottom: 2px solid #303030;
+  border-left: 2px solid #303030;
+  border-right: 2px solid #a3a09f;
+  border-top: 2px solid #a3a09f;
+  border-radius: 5px;
+  border: 2px solid #00aeff;
+  background-color: #161b45;
+  opacity: 0.9;
+}
+
+.boton-login:hover{
+  color: white;
+  opacity: 1;
+}
+
+.logo{
+  width: 150px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.texto_error{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: red;
+  background-color: #161b45;
+  border: 1px solid #00aeff;
+}
+
+/**/
+.formularioIndex{
+  margin-top: 200px;
+}
+
+.logoIndex{
+  width:100%;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+.caja{
+    border: 2px solid #00aeff;
+    background-color: #161b45;
+    opacity: 0.9;
+}
+
+.separadorInput{
+  height: 20px;
+}
+
+@media screen and (max-width: 1024px) {/*575*/
+  body{
+    font-size: 4em;
+  }
+
+  .formularioIndex{
+    margin-top: 20px;
+  }
+
+  .form-title{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  form{
+    width:80%;
+    font-size: 6em;
+  }
+
+  .inputLogin{
+    height: 80px;
+    font-size: 6em;
+  }
+
+  footer{
+    font-size: 0.5em;
+  }
+
+
+  .inputLogin{
+    border-bottom: 100px;
+  }
+
+  .separadorInput{
+    height: 20px;
+  }
+
+  input[type="checkbox"]{
+    width: 50px; /*Desired width*/
+    height: 50px; /*Desired height*/
+    margin-right: 5px;
+  }
+
+
+}/*fin media*/
+
+@media only screen  /*IPAD2*/
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+  body{
+    font-size: 2em;
+  }
+
+  .formularioIndex{
+    margin-top: 20px;
+  }
+
+  .form-title{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  form{
+    width:80%;
+    font-size: 4em;
+  }
+
+  .inputLogin{
+    height: 80px;
+    font-size: 4em;
+  }
+
+  footer{
+    font-size: 0.5em;
+  }
+
+
+  .inputLogin{
+    border-bottom: 100px;
+  }
+
+  .separadorInput{
+    height: 20px;
+  }
+
+  input[type="checkbox"]{
+    width: 50px; /*Desired width*/
+    height: 50px; /*Desired height*/
+    margin-right: 5px;
+  }
+
+}
+
+.centrado{
+  text-align:center;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.prueba{
+  background-color: red;
+  border: 1px solid black;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.prueba2{
+  background-color: green;
+  border: 1px solid black;
+  margin: 0 auto;
+
+}

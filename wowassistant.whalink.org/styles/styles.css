@@ -1,0 +1,1551 @@
+body
+{
+    background: url('../img/wall-login.jpg') fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 0;
+    margin:0;
+    font-size: 2rem;
+    /*overflow-y: hidden;*/
+}
+
+.linkInteres{
+  color: #00aeff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+a:hover{
+  color: white;
+}
+
+
+.oculto{
+  display: none;
+}
+
+.noseleccion{
+/*  -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;*/
+}
+
+.barra_scroll::-webkit-scrollbar-track
+{
+	/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+	/*background-color: #F5F5F5;*/
+/*	border-radius: 10px;*/
+}
+
+.barra_scroll::-webkit-scrollbar
+{
+	width: 10px;
+	/*background-color: #F5F5F5;*/
+}
+
+.barra_scroll::-webkit-scrollbar-thumb
+{
+	/*border-radius: 10px;*/
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(255,255,255)),
+									   color-stop(0.72, rgb(200,200,200)),
+									   color-stop(0.86, rgb(255,255,255)));
+}
+
+
+/*
+header{
+  background-color:#0f132e;
+  margin-bottom: 50px;
+  display: block;
+  height: 100%;
+  opacity: 0.8;
+}*/
+
+.caja{
+    border: 2px solid #00aeff;
+    background-color: #161b45;
+    opacity: 0.9;
+}
+
+button:disabled{
+    border: 2px solid grey;
+    background-color: #0e112b;
+    color: grey;
+    opacity: 0.9;
+}
+
+.seccion{
+  border-top: 1px solid #00aeff;
+  /*border-bottom: 1px solid #00aeff;*/
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.tabulado{
+  padding-left:15px;
+}
+
+button:hover{
+  background-color: #006dcc;
+  /*border-bottom: 2px solid #00aeff;*/
+}
+
+.cajaNaranja {
+  border: 2px solid orange;
+  background-color:rgba(232,155,8,0.6);
+}
+
+.cajaNaranja:hover {
+  border: 2px solid red;
+  background-color:rgba(232, 62, 8, 0.6);
+}
+
+
+
+.cargando{
+  width: 100%;
+  height: 100%;
+  z-index: 100000;
+  display: block;
+  position: absolute;
+  background-color: #161b45;
+  opacity: 0.9;
+}
+
+.ball,.ball1{
+  position: relative;
+  top: 50%;
+}
+
+
+
+/* MENU */
+
+.barraNevagacion{
+  background-color: #161b45;
+  border-bottom: 4px solid #0f132e;
+  height: 75px;
+}
+
+.barraNevagacion img{
+  margin-top: 5px;
+  height: 30px;
+}
+
+.opcionMenu{
+  border-left: 2px solid #00aeff;
+  border-right: 2px solid #00aeff;
+  text-decoration: none;
+  color: white;
+  height: 40px;
+  padding-top: 7px;
+}
+
+.opcionMenu:hover{
+  border-left: 4px solid orange;
+  border-right: 4px solid orange;
+  background-color:rgba(232,155,8,0.6);
+  font-size: 1.2em;
+  margin-top: -2px;
+  text-decoration: none;
+  color: white;
+}
+
+.enlaceMenu{
+  text-decoration: none;
+  color: white;
+}
+
+.enlaceMenu:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.primeroOpcionMenu{
+  border-left: 4px solid #00aeff;
+}
+
+.ultimoOpcionMenu{
+  border-right: 4px solid #00aeff;
+}
+
+.primerMenu{
+  height: 40px;
+}
+
+.segundoMenu{
+  border-top: 4px solid #0f132e;
+  font-size: 0.8em;
+  padding-top: 4px;
+  height: 35px;
+}
+
+.bienvenida{
+  text-align: right;
+}
+
+
+
+/*.navbar{
+  background-color: #161b45;
+  border-bottom: 6px solid #0f132e;
+  height: 40px;
+  z-index:100;
+}
+
+
+.navbar .nav-item a, .segunda_barra{
+  padding-top:10px;
+  color: white;
+  background-color: #161b45;
+  height: 45px;
+}
+
+.segunda_barra{
+  margin-top:-50px;
+}
+
+.navbar .nav-item a{
+  border-right: 3px solid #00aeff;
+  position: static;
+  z-index: 1000000;
+}
+
+.primer_link{
+    border-left: 3px solid #00aeff;
+}
+
+@media (max-width: 575px) {
+  .navbar .nav-item a {
+    border-right: 3px solid #00aeff;
+    border-left: 3px solid #00aeff;
+  }
+  .primer_link{
+    border-left: 0px solid #00aeff;
+  }
+}
+
+.navbar .nav-item a:hover{
+  background-color: #006dcc;
+  border-bottom: 3px solid #00aeff;
+}
+
+.navbar-brand{
+  align-items: left;
+}
+
+.navbar-brand span{
+  color: #f4d832;
+  margin-left: 20px;
+}
+
+.logo-nav{
+  height: 30px;
+  margin-top:-8px;
+}*/
+
+.navbar{
+  width:100%;
+  background-color: #161b45;
+  border-bottom: 3px solid #006dcc;
+}
+
+.segunda_barra{
+  height: 40px;
+  color: white;
+  border-bottom: 2px solid #00aeff;
+  font-size: 0.8em;
+  text-align: right;
+  opacity: 0.8;
+  line-height: 15px;
+}
+
+.navbar-toggle{
+  height: 45px;
+  margin-top: -0.01em;
+}
+
+/* PERSONAJES */
+.lista_personajes{
+  height: 70vh;
+  margin: 2vh 15px 0 15px;
+}
+
+.columna_personajes{
+  height: 70vh;
+  padding: 0;
+}
+
+.personaje{
+  height: 8.7vh;
+  margin:0;
+  padding:0;
+  border: 1px solid #00aeff;
+  background-color: #161b45;
+  opacity: 0.9;
+}
+
+.datos-pjs-lista{
+  font-size: 2vh;
+  line-height: 1.2vh;
+  margin-left:10px;
+}
+
+.colInterna-lista{
+  padding:0;
+  margin:0;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.colInterna-lista:hover{
+  border: 3px solid orange;
+  color: white;
+}
+
+.avatar-lista{
+  height: 7vh;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.6vh
+}
+
+.avatar-estandar{
+  height: 85px;
+  margin: 4px;
+}
+
+.addPersonaje{
+  margin-top: 4vh;
+  padding: 15px 20px;
+  font-size: 1em;
+}
+
+.columFlechaIzquierda{
+  float:right;
+  padding-right: 56px;
+}
+
+.columFlechaDerecha{
+
+}
+
+.flechaIzquierda,.flechaDerecha{
+  height: 100px;
+  width: 56px;
+  position: fixed; /* or absolute */
+  top: 55%;
+}
+.flechaIzquierda:hover{
+  background-image: url("../img/flecha-izquierda-hover.png");
+}
+.flechaDerecha:hover{
+  background-image: url("../img/flecha-derecha-hover.png");
+}
+.flechaIzquierda{
+  background-image: url("../img/flecha-izquierda.png");
+  background-size: contain;
+}
+.flechaDerecha{
+  background-image: url("../img/flecha-derecha.png");
+  background-size: contain;
+}
+
+.matProf{
+  font-size: 0.7em;
+}
+
+/* Tabs Personaje */
+.tabs {
+  max-width: 640px;
+  margin: 0 auto;
+
+}
+#tab-button {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#tab-button li {
+  display: table-cell;
+  width: 20%;
+}
+#tab-button li a {
+  display: block;
+  padding: .5em;
+  background: #161b45;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #00aeff;
+  font-size: 0.7em;
+}
+#tab-button li:not(:first-child) a {
+  border-left: none;
+}
+#tab-button li a:hover,
+#tab-button .is-active a {
+  border-bottom-color: transparent;
+  background: #00aeff;
+}
+.tab-contents {
+  padding: .5em 2em 1em;
+  border: 1px solid #00aeff;
+}
+
+
+
+.tab-button-outer {
+  display: none;
+}
+.tab-contents {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-button-outer {
+    position: relative;
+    z-index: 2;
+    display: block;
+  }
+  .tab-select-outer {
+    display: none;
+  }
+  .tab-contents {
+    position: relative;
+    top: -1px;
+    margin-top: 0;
+  }
+}
+
+.tablaDoble{
+  width: 100%;
+}
+.td40{
+  width: 40%;
+}
+.td20{
+  width: 20%;
+}
+
+.progress {
+  position: relative;
+	height: 20px;
+  margin: 5px 10px;
+  background-color: rgb(12, 13, 59);
+  border: 1px solid #00aeff;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-size: 0.7em;
+	padding: -1px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	/*background-color: rgba(25, 25, 25, 0.2);*/
+}
+.progress > .progress-completed {
+  font-size: 0.7em;
+	position: absolute;
+	right: 0px;
+	padding: 0px 10px 2px;
+}
+
+/* CREAR PERSONAJE */
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+@media screen and (min-width: 575px) {/*768*/
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+}else{
+  margin-top: 10vh;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#label_subtipo{
+  color: grey;
+}
+
+.input_wow{
+  text-align: center;
+  background-color: #000000;
+  opacity: 0.8;
+  width: 100%;
+  margin: 0;
+  padding: 5px 10px;
+  border: 0;
+  border-bottom: 2px solid #303030;
+  border-left: 2px solid #303030;
+  border-right: 2px solid #a3a09f;
+  border-top: 2px solid #a3a09f;
+  border-radius: 5px;
+  outline: 0;
+  font-size: 0.7em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  outline: 0;
+}
+
+select,option{
+  text-align-last:center
+}
+
+.input_wow_short{
+  width:80%;
+}
+
+.input_wow_little{
+  width:50%;
+}
+
+form p{
+  text-align: left;
+}
+
+.tabla{
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.icono{
+  width: 30px;
+  height: 30px;
+}
+
+
+/* PERSONAJE */
+.contenidoPj{
+  margin: 45px;
+  z-index: -1;
+}
+
+.colInfoPj{
+  height: 80vh;
+  margin-bottom: 20px;
+
+}
+/*.infoEquipo{
+  background-image: url("http://render-eu.worldofwarcraft.com/character/dun-modr/78/133619278-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}*/
+
+.infoEquipo {
+    position: relative;
+    width:100%;
+    height: 735px;
+}
+
+.infoPersonaje{
+  position: relative;
+  width:100%;
+}
+
+.cabeceraInfo{
+  border-bottom: 2px solid #00aeff;
+  /*border-bottom: 1px solid #00aeff;*/
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+
+.iconoEquipo{
+  width: 50px;
+  height: 50px;
+}
+
+.iconoEquipoArmas{
+  /*margin: 0px 20px 0px 0px;*/
+}
+
+.separadorArmas{
+  margin-top: 385px;
+}
+
+.textIlvl{
+  font-size: 0.7em;
+}
+
+.txtTituloProf{
+  font-size: 0.8em;
+}
+
+.botonerTalentos{
+  margin: 10px 0px;
+  padding: 0;
+}
+
+.botoneraTipoTalentos{
+  margin-bottom: 10px;
+}
+
+.botonTalento{
+  width: 40px;
+  height: 40px;
+  margin: 6px;
+}
+
+.cajaBotonTalento{
+  margin-bottom: 5px;
+}
+
+.botonesTalento:hover{
+  border: 2px solid orange;
+  Fran
+}
+
+#talentos1,#talentos2,#talentos3,#talentos4{
+  padding: 0;
+}
+
+.colInterna{
+  padding:10px;
+  margin-top:0px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.Horda{
+  background-image: url("../img/icon-horde-back.png");
+}
+
+.Alianza{
+  background-image: url("../img/icon-alliance-back.png");
+}
+
+.avatarCabecera .colInterna div{
+  height: 100px;
+}
+
+.avatar-Alianza{
+  margin: 5px 10px;
+  border: 1px solid #00aeff;
+}
+
+.avatar-Horda{
+  margin: 5px 10px;
+  border: 1px solid red;
+}
+
+
+/* COLOR CLASES*/
+.paladin{
+  color: #F58CBA;
+}
+
+.caballeromuerte{
+  color: #C41F3B;
+}
+
+
+.dh{
+  color: #A330C9;
+}
+
+
+.druida{
+  color: #FF7D0A;
+}
+
+
+.cazador{
+  color: #ABD473;
+}
+
+
+.mago{
+  color: #69CCF0;
+}
+
+
+.monje{
+  color: #00FF96;
+}
+
+
+.sacerdote{
+  color: #FFFFFF;
+}
+
+
+.picaro{
+  color: #FFF569;
+}
+
+
+.chaman{
+  color: #0070DE;
+}
+
+
+.brujo{
+  color: #9482C9;
+}
+
+
+.guerrero{
+  color: #C79C6E;
+}
+
+.nombre{
+  font-size: 1.2em;
+}
+
+.horda{
+  color: red;
+}
+
+.alianza{
+  color: rgb(62, 91, 199);
+}
+
+/*Color Rareza*/
+.calidad0{
+  border: 1px solid grey;
+  margin-bottom: 5px;
+}
+
+.calidad1{
+  border: 1px solid white;
+  margin-bottom: 5px;
+}
+
+.calidad2{
+  border: 1px solid ForestGreen;
+  margin-bottom: 5px;
+}
+
+.calidad3{
+  border: 1px solid Blue;
+  margin-bottom: 5px;
+}
+
+.calidad4{
+  border: 1px solid DarkOrchid;
+  margin-bottom: 5px;
+}
+
+.calidad5{
+  border: 1px solid DarkOrange;
+  margin-bottom: 5px;
+}
+
+.calidad6{
+  border: 1px solid #e5cc80;
+  margin-bottom: 5px;
+}
+
+.calidad7{
+  border: 1px solid DodgerBlue;
+  margin-bottom: 5px;
+}
+
+.calidadNo{
+  margin-bottom: 5px;
+}
+/* TAREAS */
+.caja_tareas{
+  margin-top: 3vh;
+}
+
+.lista_tareas {
+ height: 80vh;
+ margin: 2vh 15px 0 15px;
+ overflow-y: auto;
+}
+
+ .lista_tareas_actual{
+   height: 65vh;
+   margin: 0px;
+   overflow-y: auto;
+   overflow-x: hidden;
+ }
+
+  .mostrar_tarea{
+    height: 80vh;
+    margin: 2vh 15px 0 15px;
+    overflow-y: auto;
+  }
+
+  .mostrar_tarea_actual{
+    height: 80vh;
+    margin: 2vh 15px 0 15px;
+  }
+
+
+ .addTarea{
+   margin-bottom: 3vh;
+   padding: 15px 20px;
+   font-size: 1em;
+   margin-right: 15px;
+   color: white;
+   min-width: 125px;
+ }
+
+ .botonMarcarPjs{
+   margin-bottom: 3vh;
+   padding: 5px 20px;
+   font-size: 1em;
+   margin-right: 15px;
+   color: white;
+   min-width: 125px;
+ }
+
+ .th_cabecera{
+   cursor: pointer;
+ }
+
+ .botones_tarea{
+    position: absolute;
+    bottom: 5px;
+ }
+
+
+ tbody{
+   overflow: auto;
+ }
+
+
+ .linea_tarea>tr>td{
+   border-bottom: 1px solid #00aeff;
+   font-size: 0.75em;
+ }
+
+
+ .tabla_creacion_tarea{
+   width: 80%;
+   margin-left: 10%;
+ }
+
+ .lista_nombres{
+   font-size: 0.7em;
+ }
+
+ .cont_crearTarea{
+   margin: 4vh;
+   height: 80vh;
+   overflow-y: auto;
+   overflow-x: hidden;
+ }
+
+ .col_crearTarea{
+   height: 80vh;
+ }
+
+ .centrado{
+   text-align:center;
+ }
+
+ .izquierda{
+   text-align:left;
+ }
+
+ .derecha{
+   text-align:right;
+ }
+
+ .cursiva{
+   font-style: italic;
+ }
+
+ .lista_personajes_tareas{
+    font-size: 0.6em;
+    background-color: #161b45;
+  }
+
+
+ .no-gutter > [class*='col-'] {
+     padding-right:20px;
+     padding-left:20px;
+ }
+
+ #panel_personajes, #ocultar{
+   display: none;
+ }
+
+ input[type=checkbox]{
+  /* Double-sized Checkboxes */
+/*  -ms-transform: scale(1.2); /* IE */
+/*  -moz-transform: scale(1.2); /* FF */
+/*  -webkit-transform: scale(1.2); /* Safari and Chrome */
+/*  -o-transform: scale(1.2); /* Opera */
+  display:none;
+}
+
+.label-for-check{
+    font-size: 0.65em;
+    border: 1px solid #00aeff;
+    vertical-align: center;
+    text-align:center;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.check-with-label:checked + .label-for-check, .botonNaranja {
+  font-weight: bold;
+  border: 1px solid orange;
+  background-color:rgba(232,155,8,0.6);
+}
+
+.check-with-label + .label-for-check {
+  font-weight: bold;
+  background-color:#161b45;
+}
+
+.label-for-check:hover{
+  border: 1px solid orange;
+}
+
+.icono_mini{
+  width: 40px;
+  height: 40px;
+  margin: 0px 5px 5px -15px;
+}
+
+.icono_titulo{
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+}
+
+.icono_medio{
+  width: 40px;
+  height: 40px;
+}
+
+.icono20{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.progressFacciones{
+  padding:0;
+}
+
+.boton_mini{
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  vertical-align: center;
+
+}
+
+.segundo_panel_tareas{
+  padding-left: 25px;
+}
+
+.h3Opciones{
+  text-align: left;
+}
+
+.option{
+  text-align: center;
+}
+
+#th_fecha{
+  width:8%;
+  min-width: 102px;
+}
+
+#th_tipo{
+  width:21%;
+  min-width: 263px;
+}
+
+#th_nombre{
+  width:29%;
+  min-width: 370px;
+}
+
+#th_repetir{
+  width:11.76%;
+  min-width: 147px;
+}
+
+#th_personajes{
+  width:17%;
+  min-width: 200px;
+}
+
+#th_prioridad{
+  width:11.48%;
+  min-width: 156px;
+}
+
+
+.col_personajes_tarea{
+  overflow-y: auto;
+  height: 55vh;
+}
+
+.hr_tarea{
+  width:97%;
+  margin-left: -3px;
+}
+
+/*Estrellas - prioridad*/
+
+.prioridad1{
+  color: Turquoise;
+}
+
+.prioridad20{
+  color: MediumSeaGreen;
+}
+
+.prioridad2{
+  color: Gold;
+}
+
+.prioridad4{
+  color: DarkOrange;
+}
+
+.prioridad3{
+  color: Crimson;
+}
+
+/*
+  CARDS
+*/
+.cards {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.card{
+  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+  width: 200px;
+  height: 260px;
+  margin: auto;
+  border: 1px solid rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+    width: 210px;
+    height: 270px;
+    color: white;
+    text-decoration: none;
+}
+
+.imagenThumbnail{
+  border-bottom: 1px solid rgba(0,0,0,1);
+}
+
+
+.textoCard{
+  font-size: 0.7em;
+}
+
+.bottom-align-text{
+  position: absolute;
+  bottom: 5px;
+  margin-left: -27px;
+}
+
+
+
+/*
+  Novedades y noticias
+*/
+.col-novedades{
+  margin-top: 50px;
+  padding: 0 30px;
+}
+
+.cabeceraNoticias{
+  font-family: 'Do Hyeon', sans-serif;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+  line-height: 0.1em;
+  height: 17px;
+
+}
+
+.trapecio{
+  width: 200px;
+  -webkit-clip-path:polygon(0% 20%, 100% 0%,100% 100%,0% 80%);
+clip-path:polygon(0% 0%, 100% 0%,100% 100%,0% 80%);
+}
+
+div.skewed-imagen {
+  position: relative;
+  width: 20%;
+  height: 150px;
+  transform: skew(-20deg);
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg) ;
+  overflow: hidden;
+  border: 2px solid black;
+  margin-left: 20px;
+
+
+}
+
+div.skewed-imagen > * {
+  width: 150%;
+  position: absolute;
+  top: 50%;
+  transform: skew(20deg) translateY(-50%);
+  -webkit-transform: skew(20deg) translateY(-50%);
+  -moz-transform: skew(20deg) translateY(-50%);
+  left:-20%;
+}
+
+div.skewed-noticia{
+  position: relative;
+  width:70%;
+  height: 130px;
+  transform: skew(-20deg);
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg) ;
+  overflow: hidden;
+  border: 2px solid black;
+  margin-left:20px;
+  margin-top: 0px;
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  position: relative;
+  text-align: justify;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+div.skewed-noticia:before{
+  /*content: ' ...';*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 2rem;
+}
+div.skewed-noticia:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+}
+
+.textoNoticia{
+  font-size: 0.75em;
+}
+
+div.skewed-leer{
+  position: relative;
+  width:70%;
+  height: 30px;
+  transform: skew(-20deg);
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg) ;
+  overflow: hidden;
+  margin-left:20px;
+  margin-top: 2px;
+  padding-top:0px;
+  font-size: 0.8em;
+}
+
+
+.fuenteNoticias{
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+
+.leerMas{
+  border: 2px solid black;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0 10px;
+  margin-right: 14px;
+}
+
+.fechaNoticias{
+  margin-right: 30px;
+}
+
+.separadorNoticia{
+  margin: 12px 0 20px 0;
+}
+
+/*
+  Perfil
+*/
+
+.panelPerfil{
+  margin-top: 50px;
+  height: 380px;
+}
+
+.logo{
+  width: 40%;
+  margin-left: 30%;
+  display: block;
+  margin-top:10px;
+}
+
+.formularioPerfil{
+  text-align:right;
+
+}
+
+.borrarCuenta{
+  padding:20px;
+  margin-top: 30px;
+}
+
+.navbar-default{
+  z-index: 100;
+  height: 50px;
+  padding-top:5px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+/* FOOTER */
+.posted-by{
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 15px;
+    font-size: 0.6em;
+    height: 10px;
+    z-index: 100;
+}
+
+/* TÉRMINOS */
+.terminos{
+  font-size: 0.6em;
+  text-align: justify;
+  margin: 20px 50px 50px 50px;
+}
+
+.avisos{
+  padding-left: 30px;
+}
+
+.cuerpoFrandalf{
+  color: white;
+  margin-top: 50px;
+  width: 100%;
+  text-align: justify;
+}
+
+.desconectado{
+  color: white;
+  margin-top: 150px;
+  width: 100%;
+}
+
+.logoFrandalf{
+  width:50%;
+}
+
+#cookie_directive_container{
+  z-index: 101;
+}
+
+.cuerpoNoticia{
+/*  margin-bottom: 300px;*/
+  display: block;
+}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.error{
+  color:red;
+}
+@media screen and (max-width: 360px) and (-webkit-min-device-pixel-ratio: 1){/*575*/
+  body{
+    overflow: auto;
+    zoom: 130%;
+
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  body{
+    zoom: 80%;
+  }
+
+  .mostrar_tarea_actual {
+   height: 90vh;
+   margin: 2vh 15px 0 15px;
+  }
+
+  .lista_personajes {
+   height: 90vh;
+   margin: 2vh 15px 0 15px;
+  }
+
+  .personaje {
+   margin: 0;
+   padding: 0;
+   border: 1px solid #00aeff;
+   background-color: #161b45;
+   opacity: 0.9;
+  }
+
+}
+
+@media screen and (max-width: 1280px) {/*575*/
+  .contenidoPj{
+    margin: 5px;
+    z-index: -1;
+
+  }
+
+  .colInfoPj{
+
+  }
+
+  body{
+    overflow: auto;
+    zoom: 130%;
+
+  }
+
+
+  .cont_crearTarea{
+    height: auto;
+    overflow-y: hidden;
+  }
+
+  .icono_mini{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+  }
+
+
+  .icon-ordenable{
+    visibility: hidden;
+  }
+
+  .th_cabecera{
+    font-size: 0.7em;
+  }
+
+
+  .botones_tarea{
+     position: relative;
+     bottom: 5px;
+  }
+
+  .mostrar_tarea_actual{
+    height:auto;
+    margin: 2vh 15px 0 15px;
+    background-color: #161b45;
+  }
+
+  .col_personajes_tarea{
+    overflow-y: hidden;
+    height: auto;
+  }
+
+  .barraNevagacion{
+    /*height: 260px;*/
+    text-align:center;
+    padding:0;
+  }
+
+  .primerMenu{
+    padding-top: 20px;
+  }
+
+  .opcionMenu{
+    border-left: 4px solid #00aeff;
+    border-right: 4px solid #00aeff;
+    border-top: 2px solid #161b45;
+    margin-bottom: 3px;
+  }
+
+  .migasPan{
+    display: none;
+  }
+
+  .bienvenida{
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .barraNevagacion img{
+    margin-top: -5px; /*-28*/
+    height: 30px;
+  }
+
+  div.skewed-imagen{
+    height: 100px;
+    margin-left:20px;
+    transform: skew(0deg);
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg) ;
+  }
+
+  div.skewed-imagen > * {
+    width: 150%;
+    position: absolute;
+    top: 50%;
+    transform: skew(0deg) translateY(-50%);
+    -webkit-transform: skew(0deg) translateY(-50%);
+    -moz-transform: skew(0deg) translateY(-50%);
+    left:-35%;
+  }
+
+  div.skewed-noticia{
+    margin-left: 5px;
+    min-height: 100px;
+    width: 65%;
+    height: auto;
+    transform: skew(0deg);
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg) ;
+  }
+
+  .sourceNoticias{
+  /*  display: none;*/
+    margin-right: 20px;
+  }
+
+  .leerMas{
+    margin-left: 10px;
+  }
+
+  .navbar-default{
+    z-index: 100;
+    height: 80px;
+    padding-top:5px;
+    font-size: 0.6em;
+  }
+
+  .posted-by{
+    display: none;
+  }
+
+  .iconoEquipo{
+    width: 100px;
+    height: 100px;
+    display: block;
+  }
+
+  .separadorArmas{
+    margin-top: 932px;
+  }
+
+
+
+}/*Fin media móvil*/
+
+@media only screen  /*IPAD2*/
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+  .iconoEquipo{
+    width: 60px;
+    height:60px;
+    display: block;
+  }
+
+  .separadorArmas{
+    margin-top: 652px;
+  }
+
+  .colInfoPj {
+    min-height: 80vh;
+  }
+
+  .infoEquipo{
+    height: 1100px;
+  }
+
+  .infoTalentos{
+    height: 1600px;
+  }
+
+  body{
+    zoom: 130%;
+  }
+
+}/*Ipad2*/
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) { /* iPhone7 */
+  body{
+    zoom: 100%;
+    width:100%;
+  }
+
+}/*iPhone7*/
+
+
+
+.izquierda{
+  text-align:left;
+}
+
+.cursiva{
+  font-style: italic;
+}
+
+.columna{
+  padding-left: 10px;
+}
+
+.icon_columna{
+  padding-left: 20px;
+}
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.prueba{
+  background-color: red;
+  border: 1px solid black;
+  margin: 0 auto;
+}
